@@ -1,0 +1,106 @@
+.desktop {
+  background-color: #292929;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.desktop .div {
+  background-color: #292929;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+}
+
+.desktop .overlap-group {
+  position: absolute;
+  width: 660px;
+  height: 467px;
+  top: 205px;
+  left: 390px;
+}
+
+.desktop .element-pygame-kivy {
+  position: absolute;
+  width: 660px;
+  top: 0;
+  left: 0;
+  font-family: "Jura-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .image {
+  width: 208px;
+  height: 208px;
+  top: 259px;
+  left: 226px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.desktop .text-wrapper {
+  position: absolute;
+  width: 394px;
+  top: 94px;
+  left: 585px;
+  text-shadow: 1px 4px 12.7px #5dff0080;
+  font-family: "Jura-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 96px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .text-back {
+  position: absolute;
+  width: 100px;
+  top: 900px;
+  left: 615px;
+  text-shadow: 1px 4px 12.7px #5dff0080;
+  font-family: "Jura-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+
+}
+
+.desktop .text-back:hover {
+    color: #a9ff9f;
+}
+
+.desktop .img {
+  width: 274px;
+  height: 274px;
+  top: 252px;
+  left: 65px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.desktop .image-2 {
+  width: 290px;
+  height: 290px;
+  top: 244px;
+  left: 1133px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.desktop .image-3 {
+  position: absolute;
+  width: 339px;
+  height: 339px;
+  top: 405px;
+  left: 550px;
+}

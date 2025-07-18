@@ -1,0 +1,142 @@
+body {
+  background-color: #2f2f2f;
+  color: #d4d4d4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+img.logo {
+  width: 150px;
+  margin-bottom: 1em;
+}
+
+h1 {
+  color: #a9cba9; /* Колір для Zanda_R */
+  font-size: 3em;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+
+h2 {
+  color: #a9ff9f;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 0 0 5px #a9ff9f, 0 0 10px #a9ff9f;
+  margin-bottom: 1em;
+  text-align: center; /* Центруємо h2 */
+}
+
+.links {
+  display: flex;
+  gap: 2em;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  color: #d4d4d4;
+  text-decoration: none;
+  font-size: 1.2em;
+  background: transparent;
+}
+
+.link img {
+  width: 30px;
+  margin-right: 0.5em;
+}
+
+.link:hover {
+  color: #a9ff9f;
+}
+
+.langua {
+  display: flex;
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  color: #d4d4d4;
+  text-decoration: none;
+  font-size: 1.2em;
+  background: transparent;
+}
+
+.langua img {
+  width: 30px;
+  margin-right: 0.5em;
+}
+
+.langua:hover {
+  color: #a9ff9f;
+}
+
+.langen {
+  display: flex;
+  position: absolute;
+  top: 8px;
+  right: 45px;
+  color: #d4d4d4;
+  text-decoration: none;
+  font-size: 1.2em;
+  background: transparent;
+}
+
+.langen img {
+  width: 30px;
+  margin-right: 0.5em;
+}
+
+.langen:hover {
+  color: #a9ff9f;
+}
+
+.link-lang {
+  display: inline;
+  color: #d4d4d4;
+  text-decoration: none;
+  font-size: 1em;
+  background: transparent;
+  text-transform: uppercase;
+}
+
+.link-lang img {
+  width: 30px;
+  margin-right: 0.5em;
+}
+
+.link-lang:hover {
+  color: #a9ff9f;
+}
+
+h2.lang-links {
+  text-align: center; /* Центруємо вміст h2 */
+}
+
+.link-nick {
+  display: inline;
+  color: #a9cba9; /* Колір відповідає h1 */
+  text-decoration: none;
+  font-size: 1em;
+  background: transparent;
+  text-transform: uppercase;
+}
+
+.link-nick img {
+  width: 30px;
+  margin-right: 0.5em;
+}
+
+.link-nick:hover {
+  color: #a9ff9f;
+  text-shadow: 0 0 5px #a9ff9f, 0 0 10px #a9ff9f;
+}
+
+h1 .link-nick {
+  display: inline;
+  text-align: center;
+}
